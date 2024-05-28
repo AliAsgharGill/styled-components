@@ -3,8 +3,8 @@ div {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  min-height: 30vh;
-  background: pink;
+  flex-direction: column;
+  min-height: 25vh;
 }
 
 h2 {
@@ -15,7 +15,7 @@ h2 {
 }
 h2:hover {
   color: green;
-  background-color: white;
+  background-color: pink;
   padding: 20px;
 }
 h2::after {
