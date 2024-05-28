@@ -38,4 +38,22 @@ h2::after {
 #two {
   background-color: pink;
   color: green;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 30vh;
+  background-color: rgb(35, 212, 252);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: green;
 }/*# sourceMappingURL=main.css.map */

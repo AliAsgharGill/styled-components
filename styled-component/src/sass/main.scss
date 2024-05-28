@@ -59,3 +59,18 @@ h2 {
   background-color: $bg-color;
   color: $secondary-color;
 }
+
+
+.button {
+  @include flexPro();
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

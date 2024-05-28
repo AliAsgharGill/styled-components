@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Button from "../Button";
 
 const Wrapper = styled.section`
   width: 100%;
@@ -40,6 +41,7 @@ const Section = () => {
         <h2>Hello i am h2</h2>
         <h3 className="one">I am class One</h3>
         <h3 id="two">I am id two</h3>
+        <Button>Click Me!</Button>
       </div>
       {/* </Wrapper> */}
     </>
